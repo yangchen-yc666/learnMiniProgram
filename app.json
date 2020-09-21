@@ -1,6 +1,32 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/category/category"
   ],
-  "sitemapLocation": "sitemap17.json"
+  "sitemapLocation": "sitemap17.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "购物车",
+    "backgroundColor": "#ff0000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "text",
+      "iconPath": "/assets/tabbar/a.jpg",
+      "selectedIconPath": "/assets/tabbar/a.jpg"
+    },
+    {
+      "pagePath": "pages/category/category",
+      "text": "text",
+      "iconPath": "/assets/tabbar/b.jpg",
+      "selectedIconPath": "/assets/tabbar/b.jpg"
+    }
+  ]
+  }
 }
