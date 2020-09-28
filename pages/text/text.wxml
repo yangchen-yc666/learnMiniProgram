@@ -1,0 +1,20 @@
+<!--pages/text/text.wxml-->
+<!-- 1、基本使用 -->
+<text>hello world\n</text>
+<text>你好，世界\n</text>
+
+<!-- 2、设置文字可被复制（默认为不可复制） -->
+<text selectable="true">hello world\n</text>
+<text selectable>你好，世界\n</text>
+
+<!-- space:控制空格大小 -->
+<text>hello world\n</text>
+<!-- nbsp为默认值
+     ensp为半个中文符大小
+     emsp为一个中文符大小 -->
+<text space="nbsp">hello world\n</text>  
+<text space="ensp">hello world\n</text>
+<text space="emsp">hello world\n</text>
+
+<!-- 4、decode是否解码 -->
+<text decode>5 &gt; 3</text>

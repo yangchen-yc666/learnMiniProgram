@@ -1,0 +1,17 @@
+<!--pages/button/button.wxml-->
+<!-- 1、基本使用 -->
+<button>按钮</button>
+
+<!-- 2、size属性 -->
+<button size="mini">按钮</button>
+
+<!-- 3、type属性 -->
+<button type="warn" size="mini">按钮</button>
+<button type="primary" size="mini">按钮</button>
+<button type="default" size="mini">按钮</button>
+
+<!-- 4、plain镂空效果 -->
+<button plain size="mini">按钮</button>
+
+<!-- 5、hover-class -->
+<button size="mini" hover-class="process">按钮</button>
